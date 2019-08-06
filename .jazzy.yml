@@ -1,0 +1,8 @@
+author: Ricardo Rachaus
+author_url: https://twitter.com/ricardorachaus
+github_url: https://github.com/ricardorachaus/FastTimer
+root_url: https://ricardorachaus.github.io/FastTimer/
+module: FastTimer
+output: docs
+theme: fullwidth
+xcodebuild_arguments: [-workspace, 'FastTimer.xcworkspace', -scheme, 'FastTimer-iOS']
