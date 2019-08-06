@@ -10,7 +10,9 @@
 [![Travis](https://img.shields.io/travis/ricardorachaus/FastTimer/master.svg)](https://travis-ci.org/ricardorachaus/FastTimer/branches)
 [![SwiftFrameworkTemplate](https://img.shields.io/badge/SwiftFramework-Template-red.svg)](http://github.com/RahulKatariya/SwiftFrameworkTemplate)
 
-A Timer using the fastest way to get current time.
+A Timer using the fastest way to get current time, that is ```mach_absolute_time()```, which runs at ```0.90 µs/call``` while ```NSDate().timeIntervalSince1970``` runs at ```4.55 µs/call```.
+
+To see more: https://kandelvijaya.com/2016/10/25/precisiontiminginios/.
 
 - [Requirements](#requirements)
 - [Installation](#installation)
