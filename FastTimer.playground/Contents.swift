@@ -2,4 +2,7 @@
 
 import FastTimer
 
-var str = "Hello, playground"
+let timer = FastTimer(timeInterval: 1, countdown: 10) { timer in
+    print("Time: \(timer.countdown)")
+}
+timer.start()
